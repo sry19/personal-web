@@ -66,3 +66,35 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Trouble Shooting:
+
+# I was working with create-react-app and came across this issue where I get Home does not contain an export named Home.
+
+you're exporting as the default export, not as a named export. Check this line:
+    export default Home;
+You're exporting as default, not as a name. Thus, import Home like this:
+    import Home from './layouts/Home';
+
+# I use create-react-app to create a new app, but I find react-boorstrap does not show any css style.
+
+reference: https://react-bootstrap.netlify.app/getting-started/introduction/
+
+First, we need to npm install react-bootstrap and react-router-bootstrap for 'LinkContainer',
+Because React-Bootstrap doesn't depend on a very precise version of Bootstrap, we don't ship with any included CSS. However, some stylesheet is required to use these components. 
+
+{/* The following line can be included in your src/index.js or App.js file*/}
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+How and which Bootstrap styles you include is up to you, but the simplest way is to include the latest styles from the CDN. A little more information about the benefits of using a CDN can be found https://www.w3schools.com/bootstrap/bootstrap_get_started.asp.
+'<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+  crossorigin="anonymous"
+/>'
+
+# 奇怪的知识又增加了
+
+加<img>时， src必须以localhost开头，否则不能load local pictures. 且图片需要放在public folder中。

@@ -1,0 +1,34 @@
+.navbar-center {
+    position: sticky; 
+    left: 50%;
+    top: 0px;
+    display:inline-block;
+    z-index: 1000;
+    transform: translatex(-50%);
+  }
+  .dark-bg {
+    background-color: rgba(56, 35, 35, 0.5);
+    -webkit-box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);
+    transition: 0.3s;
+  }
+  .link {
+    font-family: "roboto", sans-serif;
+    font-size: 1rem;
+  }
+  .link:hover {
+    border-bottom: 1px solid white;
+    color: aquamarine !important;
+    border-bottom-color: aquamarine;
+  }
+  
+  .link.active {
+    border-bottom: 1px solid white;
+    color: aquamarine !important;
+    border-bottom-color: aquamarine;
+  }
+
+  .white-text {
+    color: white;
+  }
