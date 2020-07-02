@@ -6,6 +6,17 @@
     z-index: 1000;
     transform: translatex(-50%);
   }
+
+  .navbar-footer {
+    position: absolute;
+    left: 40%;
+    top: 0px;
+  }
+
+  .height-footer {
+    height: 25px;
+  }
+
   .dark-bg {
     background-color: rgba(56, 35, 35, 0.5);
     -webkit-box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);

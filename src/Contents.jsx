@@ -7,11 +7,9 @@ import './styles/Contents.css';
 
 
 export default function Contents() {
+    
     return (
         <div>
-            <div class="sky">
-                Hi
-            </div>
             <Switch>
                 <Redirect exact from="/" to="/home" />
                 <Route path="/home" component={Home} />

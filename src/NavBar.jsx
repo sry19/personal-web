@@ -9,7 +9,7 @@ class NavBar extends React.Component {
             
             <div>
                 <Navbar expand="lg"  variant="dark" fixed="top" className="dark-bg">
-                    <Navbar.Brand><text className="white-text">Ruoyun Sun</text></Navbar.Brand>
+                    <Navbar.Brand><Container className="white-text ">Ruoyun Sun</Container></Navbar.Brand>
                     <br />
                     <Nav>
                         <Container>

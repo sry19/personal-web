@@ -6,13 +6,22 @@ import Contents from './Contents.jsx';
 
 export default class Page extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.state = { showFooter: true };
+        this.onChange = this.onChange.bind(this);
+    }
+
+    onChange(props) {
+        this.setState({ showFooter: false })
+    }
+
     render () {
         return (
             <div>
                 <NavBar />
                 <Contents />
-                <hr />
-                <Footer />
+                <Footer />      
             </div>        
         );
     }

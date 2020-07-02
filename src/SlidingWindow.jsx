@@ -1,18 +1,28 @@
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
+import "./styles/SlidingWindow.css";
 
 export default class SlidingWindow extends React.Component {
+
+    constructor(props) {
+        super(props);
+        console.log(props);
+    }
+
+
+
     render () {
         return (
-            <div width="100%">
-                <Container className="bg-dark container-lg">
-                    <Carousel>
+            <div width="100%" height="100%">
+                
+                    <Carousel width="100%" height="100%">
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
-                            src="http://localhost:3000/assets/touxiang.jpeg"
+                            className="d-block w-100 "
+                            src="http://localhost:3000/assets/WechatIMG38.jpeg"
                             alt="First slide"
-                             height="300"
+                             height="800"
+                             width="2000"
                             />
                             <Carousel.Caption>
                             <h3>First slide label</h3>
@@ -22,9 +32,9 @@ export default class SlidingWindow extends React.Component {
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="http://localhost:3000/assets/Sunflower_from_Silesia2.jpg"
+                            src="http://localhost:3000/assets/emile-perron-xrVDYZRGdw4-unsplash.jpg"
                             alt="Second slide"
-                            height="300"
+                            height="800"
                             />
 
                             <Carousel.Caption>
@@ -34,10 +44,10 @@ export default class SlidingWindow extends React.Component {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
-                            src="http://localhost:3000/assets/touxiang.jpeg"
+                            className="w-100"
+                            src="http://localhost:3000/assets/cher.jpeg"
                             alt="Third slide"
-                            height="300"
+                            height="800"
                             />
 
                             <Carousel.Caption>
@@ -46,7 +56,7 @@ export default class SlidingWindow extends React.Component {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                </Container>
+                
             </div>
         )
     }
