@@ -98,3 +98,5 @@ How and which Bootstrap styles you include is up to you, but the simplest way is
 # 奇怪的知识又增加了
 
 加<img>时， src必须以localhost开头，否则不能load local pictures. 且图片需要放在public folder中。
+
+deploy to github: https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson
