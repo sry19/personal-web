@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/personal_web/static/css/main.4db927ec.chunk.css",
-    "main.js": "/personal_web/static/js/main.81252c9a.chunk.js",
-    "main.js.map": "/personal_web/static/js/main.81252c9a.chunk.js.map",
+    "main.css": "/personal_web/static/css/main.da619040.chunk.css",
+    "main.js": "/personal_web/static/js/main.b4d3a9b1.chunk.js",
+    "main.js.map": "/personal_web/static/js/main.b4d3a9b1.chunk.js.map",
     "runtime-main.js": "/personal_web/static/js/runtime-main.bde0d506.js",
     "runtime-main.js.map": "/personal_web/static/js/runtime-main.bde0d506.js.map",
     "static/css/2.af3c1da9.chunk.css": "/personal_web/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c20147f9.chunk.js": "/personal_web/static/js/2.c20147f9.chunk.js",
-    "static/js/2.c20147f9.chunk.js.map": "/personal_web/static/js/2.c20147f9.chunk.js.map",
+    "static/js/2.ee095b25.chunk.js": "/personal_web/static/js/2.ee095b25.chunk.js",
+    "static/js/2.ee095b25.chunk.js.map": "/personal_web/static/js/2.ee095b25.chunk.js.map",
     "index.html": "/personal_web/index.html",
-    "precache-manifest.6f0113756bd868ae10eb8891fb0d95c4.js": "/personal_web/precache-manifest.6f0113756bd868ae10eb8891fb0d95c4.js",
+    "precache-manifest.7a142889f34b6b6bdf05ca98839e0695.js": "/personal_web/precache-manifest.7a142889f34b6b6bdf05ca98839e0695.js",
     "service-worker.js": "/personal_web/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/personal_web/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4db927ec.chunk.css.map": "/personal_web/static/css/main.4db927ec.chunk.css.map",
-    "static/js/2.c20147f9.chunk.js.LICENSE.txt": "/personal_web/static/js/2.c20147f9.chunk.js.LICENSE.txt",
+    "static/css/main.da619040.chunk.css.map": "/personal_web/static/css/main.da619040.chunk.css.map",
+    "static/js/2.ee095b25.chunk.js.LICENSE.txt": "/personal_web/static/js/2.ee095b25.chunk.js.LICENSE.txt",
     "static/media/WechatIMG38.jpeg": "/personal_web/static/media/WechatIMG38.758530c5.jpeg",
     "static/media/Contents.css": "/personal_web/static/media/astronomy-beautiful-clouds-constellation-355465.57d25ac3.jpg",
+    "static/media/cher.jpeg": "/personal_web/static/media/cher.3035d6fd.jpeg",
+    "static/media/emile-perron-xrVDYZRGdw4-unsplash.jpg": "/personal_web/static/media/emile-perron-xrVDYZRGdw4-unsplash.40718f0b.jpg",
     "static/media/me.png": "/personal_web/static/media/me.9328ad0f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bde0d506.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c20147f9.chunk.js",
-    "static/css/main.4db927ec.chunk.css",
-    "static/js/main.81252c9a.chunk.js"
+    "static/js/2.ee095b25.chunk.js",
+    "static/css/main.da619040.chunk.css",
+    "static/js/main.b4d3a9b1.chunk.js"
   ]
 }

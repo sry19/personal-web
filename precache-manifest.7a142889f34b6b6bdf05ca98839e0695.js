@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70c62ba61394fa840a23300943446bf0",
+    "revision": "cea09ae471b4e452c08766d156400b03",
     "url": "/personal_web/index.html"
   },
   {
-    "revision": "5197869bd218763988cd",
+    "revision": "744b974fc7f9d1f39f0f",
     "url": "/personal_web/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "b27f5a907521a0e215fb",
-    "url": "/personal_web/static/css/main.4db927ec.chunk.css"
+    "revision": "2a3e12b03577e7ae9e47",
+    "url": "/personal_web/static/css/main.da619040.chunk.css"
   },
   {
-    "revision": "5197869bd218763988cd",
-    "url": "/personal_web/static/js/2.c20147f9.chunk.js"
+    "revision": "744b974fc7f9d1f39f0f",
+    "url": "/personal_web/static/js/2.ee095b25.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/personal_web/static/js/2.c20147f9.chunk.js.LICENSE.txt"
+    "url": "/personal_web/static/js/2.ee095b25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b27f5a907521a0e215fb",
-    "url": "/personal_web/static/js/main.81252c9a.chunk.js"
+    "revision": "2a3e12b03577e7ae9e47",
+    "url": "/personal_web/static/js/main.b4d3a9b1.chunk.js"
   },
   {
     "revision": "f4753497312a653ce80e",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "57d25ac3d784de930a3e0513efac8ef4",
     "url": "/personal_web/static/media/astronomy-beautiful-clouds-constellation-355465.57d25ac3.jpg"
+  },
+  {
+    "revision": "3035d6fd52e83559a4a1d074694e84aa",
+    "url": "/personal_web/static/media/cher.3035d6fd.jpeg"
+  },
+  {
+    "revision": "40718f0b8d43d26a89a544a10d6d22ba",
+    "url": "/personal_web/static/media/emile-perron-xrVDYZRGdw4-unsplash.40718f0b.jpg"
   },
   {
     "revision": "9328ad0fd83e4ccce08ecbb7483958d4",
