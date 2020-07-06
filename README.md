@@ -100,3 +100,5 @@ How and which Bootstrap styles you include is up to you, but the simplest way is
 加<img>时， src必须以localhost开头，否则不能load local pictures. 且图片需要放在public folder中。
 
 deploy to github: https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson
+
+smooth scroll: https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
