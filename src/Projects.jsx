@@ -11,13 +11,16 @@ class Projects extends Component {
         var projectDetails = projects.details;
         var projectLocation = projects.location;
         var projectTime = projects.time;
-        return <div className=""><Card style={{ width:'60%',alignItems:'center' }}>
+        var projectid = projects.id;
+
+        return <div key={projectid} className=""><Card style={{ width:'60%',alignItems:'center' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>{projectTitle}</Card.Title>
           <Card.Text>
-            <p>{projectLocation}<span>&bull;</span> <em className="date">{projectTime}</em></p>
-            <p>{projectDetails}</p>
+            {projectLocation}<span>&bull;</span> <em className="date">{projectTime}</em>
+            <br />
+            {projectDetails}
             
           </Card.Text>
           <Button variant="primary">Go!</Button>

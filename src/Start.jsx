@@ -22,15 +22,16 @@ export default class Start extends React.Component {
     
     render() {
         return (
-            <div fluid className="jumbo">
+            /**fluid */
+            <div className="jumbo">
                 <Jumbotron className="op">
                     <Container className="op-inner">
                         
             
-                        <p className="para">
-                            <h1 className="h1-size">I'm Ruoyun.</h1>
+                        <div className="para">
+                            <p className="h1-size">I'm Ruoyun.</p>
                         <br />Welcome to my personal website.
-                        </p>
+                        </div>
                         
                             <Link className="nav-item l"
                                 activeClass="active"

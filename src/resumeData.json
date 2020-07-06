@@ -85,6 +85,7 @@
   "portfolio":{
     "projects": [
       {
+        "id":1,
         "title":"Multiprocessing Movie Search Engine (C, Linux, Valgrind, Emacs)",
         "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "time": "01/2020 -- 04/2020",
@@ -93,6 +94,7 @@
         "url":"https://www.canadianwanderlust.com"
       },
       {
+        "id":2,
         "title":"Task Management Application (Java, JUnit)",
         "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "time": "01/2020 -- 04/2020",
@@ -101,6 +103,7 @@
         "url":"https://www.canadianwanderlust.com"
       },
       {
+        "id":3,
         "title":"Othello Game Design(Python)",
         "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "time": "10/2019 -- 12/2019",
@@ -109,6 +112,7 @@
         "url":"https://www.canadianwanderlust.com"
       },
       {
+        "id":4,
         "title":"Campgrounds Experience Sharing Website (JavaScript)",
         "location":"",
         "time": "01/2019 -- 03/2019",
@@ -117,6 +121,7 @@
         "url":"https://www.canadianwanderlust.com"
       },
       {
+        "id":5,
         "title":"Relationship Prediction between mRNA and Diseases",
         "location":"",
         "time": "02/2018 -- 03/2018",
