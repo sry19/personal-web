@@ -6,24 +6,25 @@ import Start from './Start.jsx';
 import Resume from './Resume.jsx';
 import Projects from './Projects.jsx';
 import ContactMe from './ContactMe.jsx';
+import data from './resumeData.json';
 
 export default class Home extends React.Component {
     
     render() {
-        
+
         return (
         
             <div >
                 <div>
                     <Start />
                     <div id="section1">
-                        <About data={this.props.data.main}/>
+                        <About data={data.main}/>
                     </div>
                     <div id="section2">
-                        <Resume data={this.props.data.resume}/>
+                        <Resume data={data.resume}/>
                     </div>
                     <div id="section3">
-                        <Projects data={this.props.data.portfolio} />
+                        <Projects data={data.portfolio} />
                     </div>
                     <div id="section4">
                         <ContactMe />
