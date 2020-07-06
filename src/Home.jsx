@@ -1,11 +1,9 @@
 import React from 'react';
-import Section from './Section.js';
-import dummyText from './DummyText.js';
-import About from './About.jsx';
-import Start from './Start.jsx';
+import About from './About.js';
+import Start from './Start.js';
 import Resume from './Resume.jsx';
 import Projects from './Projects.jsx';
-import ContactMe from './ContactMe.jsx';
+import ContactMe from './ContactMe.js';
 import data from './resumeData.json';
 
 export default class Home extends React.Component {

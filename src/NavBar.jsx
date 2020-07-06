@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, Container, Dropdown, DropdownButton } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Container } from 'react-bootstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { LinkContainer } from 'react-router-bootstrap';
 import './styles/NavBar.css';

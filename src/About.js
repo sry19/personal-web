@@ -1,6 +1,6 @@
 import React from 'react';
-import {Container, Row, Col, Image } from 'react-bootstrap';
-import { Link, animateScroll as scroll } from "react-scroll";
+import {Container, Row, Col } from 'react-bootstrap';
+import { Link } from "react-scroll";
 import './styles/About.css';
 
 export default class About extends React.Component {
@@ -31,7 +31,7 @@ export default class About extends React.Component {
             var phone= this.props.data.phone;
             var email1 = this.props.data.email1;
             var email2 = this.props.data.email2;
-            var resumeDownload = this.props.data.resumedownload;
+            
           }
 
         return (

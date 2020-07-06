@@ -1,6 +1,6 @@
 import React from 'react';
-import { Jumbotron, Container,Button} from 'react-bootstrap';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Jumbotron, Container} from 'react-bootstrap';
+import { Link } from "react-scroll";
 import './styles/Start.css' ;
 
 export default class Start extends React.Component {

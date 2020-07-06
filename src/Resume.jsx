@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Resume.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 class Resume extends Component {
     constructor(props) {

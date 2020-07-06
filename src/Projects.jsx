@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import {Card,Button,Container} from 'react-bootstrap';
+import {Card,Button} from 'react-bootstrap';
 
 class Projects extends Component {
   render() {
 
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
+        
         var projectTitle = projects.title;
         var projectDetails = projects.details;
         var projectLocation = projects.location;
