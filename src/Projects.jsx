@@ -11,8 +11,8 @@ class Projects extends Component {
         var projectDetails = projects.details;
         var projectLocation = projects.location;
         var projectTime = projects.time;
-        return <div className=""><Card>
-        <Card.Header>Featured</Card.Header>
+        return <div className=""><Card style={{ width:'60%',alignItems:'center' }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>{projectTitle}</Card.Title>
           <Card.Text>
