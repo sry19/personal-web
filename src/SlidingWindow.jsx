@@ -1,6 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import "./styles/SlidingWindow.css";
+const url1 = require( "./assets/WechatIMG38.jpeg");
+const url2 = require("./assets/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+const url3 = require("./assets/cher.jpeg");
 
 export default class SlidingWindow extends React.Component {
 
@@ -19,7 +22,7 @@ export default class SlidingWindow extends React.Component {
                         <Carousel.Item>
                             <img
                             className="d-block w-100 "
-                            src="http://localhost:3000/assets/WechatIMG38.jpeg"
+                            src={url1}
                             alt="First slide"
                              height="800"
                              width="2000"
@@ -32,7 +35,7 @@ export default class SlidingWindow extends React.Component {
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="http://localhost:3000/assets/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                            src={url2}
                             alt="Second slide"
                             height="800"
                             />
@@ -45,7 +48,7 @@ export default class SlidingWindow extends React.Component {
                         <Carousel.Item>
                             <img
                             className="w-100"
-                            src="http://localhost:3000/assets/cher.jpeg"
+                            src={url3}
                             alt="Third slide"
                             height="800"
                             />

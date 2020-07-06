@@ -11,7 +11,7 @@
 }
 
 .op {
-    background-image: url("http://localhost:3000/assets/astronomy-beautiful-clouds-constellation-355465.jpg");
+    background-image: url("../assets/astronomy-beautiful-clouds-constellation-355465.jpg");
     background-size: cover;
     text-align: center;
     height: 100%;

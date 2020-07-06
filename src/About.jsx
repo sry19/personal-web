@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-scroll";
 import './styles/About.css';
+import photo from './assets/me.png';
 
 export default class About extends React.Component {
     constructor(props) {
@@ -23,7 +24,7 @@ export default class About extends React.Component {
         console.log(this.props.data);
         if(this.props.data){
             var name = this.props.data.name;
-            var profilepic= this.props.data.image;
+            var projectPhoto = photo;
             var bio = this.props.data.bio;
             var city = this.props.data.address.city;
             var state = this.props.data.address.state;
@@ -39,7 +40,7 @@ export default class About extends React.Component {
                 <Container>
                     <Row>
                         <Col sm={4} className="about">
-                            <img className="selfie" src={profilepic} alt="me" />
+                            <img className="selfie" src={projectPhoto} alt="me" />
 
                         </Col>
                         <Col sm={8} className="about white-text">
