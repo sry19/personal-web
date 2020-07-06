@@ -1,0 +1,129 @@
+{
+  "main": {
+    "name":"Ruoyun Sun",
+    "image":"http://localhost:3000/assets/me.png",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email1": "sun.ruoy@northeastern.edu",
+    "email2": "sunruoy96@gmail.com",
+    "phone": "2062283846",
+    "address":{
+      "city":"Seattle",
+      "state":"Washington",
+      "zip": "98109"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/tim.baker.906",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/tbakerx",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Northeastern University, Seattle",
+        "degree":"MS in Computer Science",
+        "graduated":"09/2019 -- 12/2021(expected)",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Drexel University, Philadelphia",
+        "degree": "NON-DEGREE/ Short-term Scholar",
+        "graduated": "02/2019 -- 05/2019",
+        "description": "observed in the laboratory, read research papers and wrote a paper"
+      },
+      {
+        "school":"China Pharmaceutical University, China",
+        "degree":"BS in Pharmaceutic Preparation",
+        "graduated":"09/2015 -- 07/2019",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "title":"Teaching Assistant for CS5800 Algorithms",
+        "years":"05/2020 -- 08/2020",
+        "description":"Instructed 60 graduate students in algorithms by holding weekly office hours \n Communicated with instructors and other TAs to sync on grading policy"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Web Skills",
+        "level":"Git HTML5 CSS ReactJs MongoDB Express Heroku"
+      },
+      {
+        "name":"Operating Systems",
+        "level":"Microsoft Windows macOS Linux"
+      },
+      {
+        "name": "Programming Languages",
+        "level": "Python Java C Javascript C++"
+      }
+
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Multiprocessing Movie Search Engine (C, Linux, Valgrind, Emacs)",
+        "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "time": "01/2020 -- 04/2020",
+        "details":"Built a file indexer and a file processor using Linked List and Hash Table, applied Google Tests and exposed high-level abstracted APIs \n Implemented a multi-threaded File Parser to increase the responsiveness \n Developed a query processor using socket programming and TCP/IP protocol suite that serves multiple clients concurrently and increases throughput",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Task Management Application (Java, JUnit)",
+        "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "time": "01/2020 -- 04/2020",
+        "details":"Designed a full-stack personalized task management application compatible with Windows and Mac OS using MVC framework to allow users to create and organize to-dos \n Implemented a general command line parser and a flexible filter via Builder and Factory design patterns \n Performed industry-level teamwork using Git, exchanged information via interfaces and scheduled meetings frequently to collaborate with each other",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Othello Game Design(Python)",
+        "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "time": "10/2019 -- 12/2019",
+        "details":"Used Python to design disk, board and player classes and write tests using unit-test, improved user-friendliness by producing user interface with \textbf{Processing} and customizing board \n Established game controller to launch initial setup and automatically switch user control, feasibly placed and flipped disks to keep the game orderly \n Built artificial intelligence to play against users in order to make the game challenging \n Recorded the scores in real time, displayed the results and refreshed the leader board",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Campgrounds Experience Sharing Website (JavaScript)",
+        "location":"",
+        "time": "01/2019 -- 03/2019",
+        "details":"Developed the website under Amazon Cloud9 and deployed on Heroku with integration of MongoDB Atlas \n Implemented RESTful server-side logic under \textbf{Express.js}, enabled users to signup, login, share and comment on campgrounds posts, and supported authentication service through routers \n Built front-end through Bootstrap and jQuery, with the functionality of action-triggered response \n Implemented data persistence layer with MongoDB",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Relationship Prediction between mRNA and Diseases",
+        "location":"",
+        "time": "02/2018 -- 03/2018",
+        "details":"Applied and implemented an adapted random walk algorithm in MATLAB for vicinity prediction of a diseases-mRNA multiplex network and accuracy reached 90% in some diseases \n Established a de novo algorithm using weighted K nearest known neighbors and collaborative filtering for optimizing the incidence matrix of diseases-mRNA graph, which significantly increased the precision and recall of the algorithm",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}

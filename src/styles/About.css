@@ -1,4 +1,5 @@
 .selfie {
+    margin:50px;
     height: 100px;
     width: auto;
     border: 3px;
@@ -34,35 +35,9 @@
 .about {
     vertical-align: middle;
     padding:70px;
-    margin: 15px;
 }
 
-/* The sidebar menu */
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 40%; /* Set the width of the sidebar */
-    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color:rgba(14, 11, 11, 0.9); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
+
   
   /* Style page content */
   .main {
@@ -77,17 +52,31 @@
   }
 
   .cover-hight {
-      height: 100vh;
+      margin: 0;
+      height: auto; /** modified */
       width: 100vw;
+      margin-top : 0;
       margin-left:0;
       margin-right: 0;
-      padding:0;
+      padding:0px;
       left:0;
       right:0;
-      
+      background-color: #191919;
   }
 
-  .bg-dark {
-      background-color: blue;
-      
+.white-text {
+    color: white;
+}
+
+/** put button in center */
+.put-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-bottom:20px;
+}
+
+.l:hover {
+    fill: 'orange';
   }

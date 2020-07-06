@@ -42,17 +42,27 @@
     font-size: 1rem;
   }
   .link:hover {
-    border-bottom: 1px solid white;
-    color: aquamarine !important;
-    border-bottom-color: aquamarine;
+    
+    color: rgb(223, 109, 15) !important;
+    
   }
   
   .link.active {
-    border-bottom: 1px solid white;
-    color: aquamarine !important;
-    border-bottom-color: aquamarine;
+    border-bottom: orange;
+    
+    
   }
 
   .white-text {
     color: white;
+  }
+
+  .orange-text {
+    color: orange;
+    text-shadow: rgb(37, 31, 31);
+    font-weight: 800;
+  }
+
+  .home-width {
+    width: 70px;
   }

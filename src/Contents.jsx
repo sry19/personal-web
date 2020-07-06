@@ -6,15 +6,18 @@ import SlidingWindow from './SlidingWindow.jsx';
 import './styles/Contents.css';
 
 
-export default function Contents() {
-    
-    return (
-        <div>
-            <Switch>
-                <Redirect exact from="/" to="/home" />
-                <Route path="/home" component={Home} />
-                <Route path="/photowall" component={SlidingWindow} />
-            </Switch>
-        </div>
-    )
+export default class Contents extends React.Component {
+    render() {
+       
+        return (
+            
+            <div>
+                <Switch>
+                    <Redirect exact from="/" to="/home" />
+                    <Route path="/home" render={(props)=> <Home data={this.props.data} />} />
+                    <Route path="/photowall" component={SlidingWindow} />
+                </Switch>
+            </div>
+        )
+    }
 }

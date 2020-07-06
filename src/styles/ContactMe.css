@@ -1,0 +1,54 @@
+.div-pro {
+    margin:0px;
+    height:auto;
+    padding: 100px;
+    text-align: center;
+    background-color: #191919;
+    color:#636363;
+}
+
+.f {
+    display:table;
+    height: 400px;
+    width: 60% ;
+    margin: auto;
+    clear:both;
+    padding:0;
+    
+}
+
+.lb {
+    float:left;
+  width:25%;
+  text-align:left;
+  margin-right:5px; 
+  margin-left: 120px;  
+}
+
+.ip {
+    float:left;
+  width:65%;
+  margin-left: 120px;  
+  height: 30px;
+  background-color: rgb(119, 105, 105);
+  border:None;
+}
+
+.ip:focus  {
+    background-color: rgb(99, 154, 156);
+}
+
+
+.ip-m {
+    height:90px;
+}
+
+.contactsumbit {
+    padding: 10px;
+    
+    color:#fff;
+   background: #0D0D0D;
+    border: 1px white;
+   cursor: pointer;
+   border-radius :6px;
+}

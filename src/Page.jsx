@@ -20,7 +20,7 @@ export default class Page extends React.Component {
         return (
             <div>
                 <NavBar />
-                <Contents />
+                <Contents data={this.props.data} />
                 <Footer />      
             </div>        
         );
