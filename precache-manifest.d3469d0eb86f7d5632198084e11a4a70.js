@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a64e650008fc4eefde25ca7adc219b8",
+    "revision": "5556e0857d32d092a10b94cd6363bef0",
     "url": "/personal_web/index.html"
   },
   {
-    "revision": "eb246251e716ae506d7d",
+    "revision": "a1d6d348fc20b25c77c7",
     "url": "/personal_web/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "7b5d84e036a0e3a6772d",
-    "url": "/personal_web/static/css/main.5569a141.chunk.css"
+    "revision": "75110976b1d85f80a6a7",
+    "url": "/personal_web/static/css/main.2edf2289.chunk.css"
   },
   {
-    "revision": "eb246251e716ae506d7d",
-    "url": "/personal_web/static/js/2.75f2ca8a.chunk.js"
+    "revision": "a1d6d348fc20b25c77c7",
+    "url": "/personal_web/static/js/2.60f4cc4a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/personal_web/static/js/2.75f2ca8a.chunk.js.LICENSE.txt"
+    "url": "/personal_web/static/js/2.60f4cc4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b5d84e036a0e3a6772d",
-    "url": "/personal_web/static/js/main.e58f934e.chunk.js"
+    "revision": "75110976b1d85f80a6a7",
+    "url": "/personal_web/static/js/main.195e67cf.chunk.js"
   },
   {
     "revision": "f4753497312a653ce80e",
@@ -48,11 +48,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal_web/static/media/me.9328ad0f.png"
   },
   {
-    "revision": "0d0a540012bf4ada8b7b52904ba08253",
-    "url": "/personal_web/static/media/pinksky.0d0a5400.jpg"
+    "revision": "0173c9cfaf045e45f0353e70c81cea00",
+    "url": "/personal_web/static/media/movieengine.0173c9cf.png"
   },
   {
-    "revision": "0870ffa754951f7cb5e1a40328464ccd",
-    "url": "/personal_web/static/media/stational.0870ffa7.jpeg"
+    "revision": "81809140283fcb5eb2bf570101473231",
+    "url": "/personal_web/static/media/othello.81809140.png"
+  },
+  {
+    "revision": "94fe2864411462437c75714b89a20faa",
+    "url": "/personal_web/static/media/rna.94fe2864.png"
+  },
+  {
+    "revision": "ccd61774c069f791259ecfa2a56b6020",
+    "url": "/personal_web/static/media/taskmanage.ccd61774.png"
+  },
+  {
+    "revision": "043a86554f535f5e43482c540cb5784d",
+    "url": "/personal_web/static/media/yelpcamp.043a8655.png"
   }
 ]);
