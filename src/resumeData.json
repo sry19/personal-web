@@ -2,7 +2,7 @@
   "main": {
     "name":"Ruoyun Sun",
     "image":"./assets/me.png",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I'm passionate about programming, and I have finished many projects so far, which include a movie search engine and several web development projects.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email1": "sun.ruoy@northeastern.edu",
     "email2": "sunruoy96@gmail.com",
@@ -42,20 +42,17 @@
       {
         "school":"Northeastern University, Seattle",
         "degree":"MS in Computer Science",
-        "graduated":"09/2019 -- 12/2021(expected)",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"09/2019 -- 12/2021(expected)"
       },
       {
         "school":"Drexel University, Philadelphia",
         "degree": "NON-DEGREE/ Short-term Scholar",
-        "graduated": "02/2019 -- 05/2019",
-        "description": "observed in the laboratory, read research papers and wrote a paper"
+        "graduated": "02/2019 -- 05/2019"
       },
       {
         "school":"China Pharmaceutical University, China",
         "degree":"BS in Pharmaceutic Preparation",
-        "graduated":"09/2015 -- 07/2019",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"09/2015 -- 07/2019"
       }
     ],
     "work":[
@@ -63,7 +60,7 @@
         "company":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "title":"Teaching Assistant for CS5800 Algorithms",
         "years":"05/2020 -- 08/2020",
-        "description":"Instructed 60 graduate students in algorithms by holding weekly office hours \n Communicated with instructors and other TAs to sync on grading policy"
+        "description":["Instructed 60 graduate students in algorithms by holding weekly office hours","Communicated with instructors and other TAs to sync on grading policy"]
       }
     ],
     "skills":[
