@@ -102,3 +102,5 @@ How and which Bootstrap styles you include is up to you, but the simplest way is
 deploy to github: https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson
 
 smooth scroll: https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
+
+how to load a list of images in react: https://stackoverflow.com/questions/34582405/react-wont-load-local-images

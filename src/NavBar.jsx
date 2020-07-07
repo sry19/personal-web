@@ -72,7 +72,7 @@ class NavBar extends React.Component {
                                 offset={-70}
                                 duration={500}
                             >
-                                Section 3
+                                Projects <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"/></svg>
                             </Link>
                             &nbsp;&nbsp;
                             <Link className="nav-item"
@@ -83,7 +83,7 @@ class NavBar extends React.Component {
                                 offset={-70}
                                 duration={500}
                             >
-                                Section 4
+                                Contact <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                             </Link>       
                 </div>
         }

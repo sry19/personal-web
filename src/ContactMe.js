@@ -4,15 +4,32 @@
 
 import React from "react";
 import './styles/ContactMe.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
+      color: 'white'
     };
+    this.onHover = this.onHover.bind(this);
+    this.noHover = this.noHover.bind(this);
+    this.scrollToTop=this.scrollToTop.bind(this);
   }
+ 
+  scrollToTop = () => {
+    scroll.scrollToTop();
+};
+
+onHover() {
+    this.setState({color: 'orange'});
+}
+
+noHover() {
+    this.setState({color: 'white'});
+}
 
   render() {
     const { status } = this.state;
@@ -34,7 +51,18 @@ export default class MyForm extends React.Component {
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contactsumbit ">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
-      
+      <Link className="l put-middle"
+         activeClass="active"
+         
+         spy={true}
+         smooth={true}
+         offset={-70}
+         duration={500}
+         onMouseOver={this.onHover}
+         onClick={this.scrollToTop}
+         onMouseLeave={this.noHover}
+     ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={this.state.color} width="48px" height="48px"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 8.41L16.59 13 18 11.59l-6-6-6 6L7.41 13 12 8.41zM6 18h12v-2H6v2z"/></svg>
+</Link>
     </div>
     );
   }
