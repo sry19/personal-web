@@ -21,3 +21,7 @@
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
   }
+
+.black-text {
+  color:black;
+}

@@ -53,7 +53,7 @@ noHover() {
       </form>
       <Link className="l put-middle"
          activeClass="active"
-         
+         to="section1"
          spy={true}
          smooth={true}
          offset={-70}

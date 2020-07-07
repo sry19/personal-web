@@ -28,8 +28,8 @@ export default class SlidingWindow extends React.Component {
                              width="2000"
                             />
                             <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Jiaxing, Zhejiang, China</h3>
+                            <p>Jiaxing is a beautiful city and has many traditional Chinese elements</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -41,8 +41,8 @@ export default class SlidingWindow extends React.Component {
                             />
 
                             <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>Computer Science</h3>
+                            <p>I love coding and start to build up my career path.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -54,8 +54,8 @@ export default class SlidingWindow extends React.Component {
                             />
 
                             <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3 className="black-text">K-Pop music</h3>
+                            <p className="black-text">Obsessed with K-Pop music from 12, I hope I can dance well like my idols one day.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>

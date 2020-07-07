@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import "./resumeData.json";
 import { Link} from "react-scroll";
-const pinksky = require("./assets/pinksky.jpg");
-const stational = require("./assets/stational.jpeg");
-const cher = require("./assets/cher.jpeg");
+const movieengine = require("./assets/movieengine.png");
+const taskmanage = require("./assets/taskmanage.png");
+const othello = require("./assets/othello.png");
+const rna = require("./assets/rna.png");
+const yelpcamp = require("./assets/yelpcamp.png");
 
 
 class Projects extends Component {
@@ -24,7 +26,7 @@ class Projects extends Component {
 
     
   render() {
-    let obj = { "pinksky":pinksky,"stational":stational,"cher":cher};
+    let obj = { "movieengine":movieengine,"taskmanage":taskmanage,"othello":othello,"rna":rna, "yelpcamp":yelpcamp};
 
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
@@ -36,15 +38,23 @@ class Projects extends Component {
         var projectLocation = projects.location;
         var projectTime = projects.time;
         var projectid = projects.id;
+        var projecturl = projects.url;
+
+        if (projectDetails) {
+          var lines = projectDetails.map(function(line) {
+            return <li key={line}>{line}</li>
+          })
+        }
         
 
         return <div key={projectid} className="card">
         <img src={obj[projectimg]} className="card-img-top" alt="..." />
         <div className="card-body">
             <h5 className="card-title">{projectTitle}</h5>
-            <p className="card-text">{projectDetails}</p>
-            <p className="card-text">{projectLocation}</p>
-            <p className="card-text">{projectTime}</p>
+            <p className="card-text">{lines}</p>
+            <p className="card-text"><small className="text-muted">{projectLocation}</small></p>
+            <p className="card-text"><small className="text-muted">{projectTime}</small></p>
+            <a href={projecturl} className="btn btn-primary btn-lg active" role="button" aria-pressed="true" aria-disabled="true">GO!</a>
         </div>
     </div>
       })

@@ -14,10 +14,13 @@
     background-image: url("../assets/astronomy-beautiful-clouds-constellation-355465.jpg");
     background-size: cover;
     text-align: center;
-    height: 100%;
+    height: 100vh;
+    
     
     align-items: center;
-    justify-items: center;   
+    justify-items: center;  
+    padding-top:10px; 
+    padding-bottom: 0px;
 }
 
 .op-inner {
@@ -46,9 +49,62 @@
     margin-bottom: -20px;
     margin-top:100px;
     padding: 0;
+    position: absolute;;
 
 }
 
 .l:hover {
     fill: 'orange';
   }
+.l {
+    text-align: center;
+    justify-items: center; 
+
+}
+
+.white-text {
+    color: white;
+}
+
+.pad {
+    text-align: center;
+    padding-bottom: 30vh;
+    padding-top:20vh;
+}
+
+.font-change {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+
+  .fa-facebook-square:before {
+    content: "\f082";
+  }
+
+.social {
+
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+ }
+ .social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+ }
+ .social li a { color: #fff; }
+  .social li a:hover { color: #11ABB0; }
