@@ -104,3 +104,11 @@ deploy to github: https://create-react-app.dev/docs/deployment/#step-1-add-homep
 smooth scroll: https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
 
 how to load a list of images in react: https://stackoverflow.com/questions/34582405/react-wont-load-local-images
+
+# hot key
+
+git add .
+git commit -m "message"
+git push
+npm run deploy
+// maybe does not work, try to git push again
